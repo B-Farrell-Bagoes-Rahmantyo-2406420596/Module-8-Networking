@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package sevices;
+package services;
 
 service  PaymentService {
   rpc ProcessPayment(PaymentRequest) returns (PaymentResponse);
